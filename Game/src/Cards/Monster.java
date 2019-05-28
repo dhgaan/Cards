@@ -1,6 +1,4 @@
-package Cards.Card;
-
-import java.util.*;
+package Cards;
 
 public class Monster {
 
@@ -21,4 +19,29 @@ public class Monster {
         att = attribute;
         effect = e;
     }
+
+    public int attack() {
+        return atk;
+    }
+
+    public int defense() {
+        return def;
+    }
+
+    public String name() {
+        return name;
+    }
+
+    public int level() {
+        return level;
+    }
+
+    public String type() {
+        return type;
+    }
+
+    public boolean effect() {
+        return effect;
+    }
+
 }
